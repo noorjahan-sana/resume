@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.s{
+    height: 1000px;
+    width: 1200px;
+    background-color: rgb(138, 209, 107);
+    border: 2px solid black;
+    margin: 30px;
+    display: inline-block;
+}
+hr{
+    height: 2px;
+    border-width: 0px;
+    color: #000;
+    background-color: black;
+}
+.img
+{
+    height: 150px;
+    width:150px;
+    display: block;
+    margin: auto;
+    border: 4px solid black;
+   
+}   
+.name
+{
+    text-align: center;
+    color: brown;
+}
+.side
+{
+    color: brown;
+}
+.container{
+    display: flex;
+}
+table ,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.pr{
+    color: brown;
+    margin-bottom: 0px;
+}
+.d{
+    margin: 30px;
+}
