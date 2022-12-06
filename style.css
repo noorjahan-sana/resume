@@ -11,7 +11,7 @@ body{
     display: inline-block;
 }
 hr{
-    height: 2px;
+    height: 3px;
     border-width: 0px;
     color: #000;
     background-color: black;
@@ -28,7 +28,7 @@ hr{
 .name
 {
     text-align: center;
-    color: brown;
+    color: rgb(35, 202, 32);
 }
 .side
 {
