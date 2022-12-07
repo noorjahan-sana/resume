@@ -57,11 +57,20 @@ td {
     margin: 30px;
 }
 
-@media only screen and (min-width:350px) and (max-width:650px) {
+@media only screen and (min-width:350px) and (max-width:750px) {
     .s {
         height: 1200px;
         width: 1200px;
         margin-top: 55px;
         
     }
+}
+@media only screen and (min-width:750px) and (max-width:1050px){
+    .s {
+        height: 1215px;
+        width: 1200px;
+        margin-top: 55px;
+        
+    }
+
 }
