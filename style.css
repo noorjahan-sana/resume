@@ -1,8 +1,9 @@
-body{
+body {
     margin: 0px;
     padding: 0px;
 }
-.s{
+
+.s {
     height: 1000px;
     width: 1200px;
     background-color: rgb(138, 209, 107);
@@ -10,41 +11,57 @@ body{
     margin: 30px;
     display: inline-block;
 }
-hr{
+
+hr {
     height: 2px;
     border-width: 0px;
     color: #000;
     background-color: black;
 }
-.img
-{
+
+.img {
     height: 150px;
-    width:150px;
+    width: 150px;
     display: block;
     margin: auto;
     border: 4px solid black;
-   
-}   
-.name
-{
+
+}
+
+.name {
     text-align: center;
     color: brown;
 }
-.side
-{
+
+.side {
     color: brown;
 }
-.container{
+
+.container {
     display: flex;
 }
-table ,th,td{
+
+table,
+th,
+td {
     border: 2px solid black;
     border-collapse: collapse;
 }
-.pr{
+
+.pr {
     color: brown;
     margin-bottom: 0px;
 }
-.d{
+
+.d {
     margin: 30px;
+}
+
+@media only screen and (min-width:350px) and (max-width:650px) {
+    .s {
+        height: 1200px;
+        width: 1200px;
+        margin-top: 55px;
+        
+    }
 }
